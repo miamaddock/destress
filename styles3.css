@@ -1,0 +1,94 @@
+.header {
+
+  padding-top: 5px
+
+
+
+}
+
+body {
+  background-color: #081B3B;
+
+}
+.joke {
+    background: #00B567;
+ border-radius: 20%;
+ border: none;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 90px 50px;
+    width: 12%;
+}
+
+h2{
+  color: white;
+}
+.dropbtn {
+  background-color: #31CCBC;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+  float: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #228F84}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #228F84;
+}
+
+
+.inspo {
+  font-size: 30px;
+  margin-bottom: 7.5%;
+  color: white;
+   letter-spacing: 0.4px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+.ino {
+  font-size: 30px;
+  margin-bottom: 7.5%;
+  color: white;
+   letter-spacing: 0.4px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}

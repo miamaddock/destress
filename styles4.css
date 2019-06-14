@@ -1,0 +1,155 @@
+body {
+  background-color:#27448A ;
+}
+nav {
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    color:#8CFFBE;
+    border: dotted 5px;
+    border-color:#94E874;
+}
+
+.audio {
+align-items: center;
+display: flex;
+flex-direction: row;
+margin-top:175px;
+justify-content:space-between;
+}
+.stop {
+align-items: center;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top:25px;
+
+}
+
+.stop1 {
+    margin-left: 28px;
+    margin-right: 28px;
+      width:150px;
+    height:50px;
+    border: solid 5px;
+border-color:gray;
+
+}
+.stop2 {
+    margin-left: 28px;
+    margin-right: 28px;
+      width:150px;
+    height:50px;
+    border: solid 5px;
+border-color:gray;
+}
+.stop3 {
+    margin-left: 28px;
+    margin-right: 28px;
+      width:150px;
+    height:50px;
+    border: solid 5px;
+border-color:gray;
+}
+.stop4 {
+    margin-left: 28px;
+    margin-right: 28px;
+      width:150px;
+    height:50px;
+    border: solid 5px;
+border-color:gray;
+}
+.stop5 {
+    margin-left: 28px;
+    margin-right: 28px;
+      width:150px;
+    height:50px;
+    border: solid 5px;
+border-color:gray;
+}
+.rain{
+  background-image:url("./photos/rain.jpeg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 200px;
+  height:200px;
+
+}
+
+.ocean{
+  background-image:url("./photos/ocean.jpeg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 200px;
+  height:200px;
+
+}
+.nature{
+  background-image:url("./photos/nature.jpeg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 200px;
+  height:200px;
+
+}
+.piano{
+  background-image:url("./photos/piano.jpeg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 200px;
+  height:200px;
+
+}
+.insta{
+  background-image:url("./photos/insta.jpeg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 200px;
+  height:200px;
+
+}
+
+.dropbtn {
+  background-color: #31CCBC;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+  float: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #228F84}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #228F84;
+}
